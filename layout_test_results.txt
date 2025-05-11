@@ -1,0 +1,121 @@
+
+=== Direct Layout Test ===
+
+Available layout types in our system: ['title', 'toc', 'text', 'two-column', 'text-image', 'image-text', 'text-image-split', 'image-text-split', 'multi-content', 'quote', 'chart', 'comparison', 'timeline', 'image-gallery', 'full-image']
+--------------------------------------------------
+
+Mock Gemini Response (Pretty Printed):
+--------------------------------------------------
+{
+  "colors": {
+    "background": "#FFFFFF",
+    "accent": "#4F46E5",
+    "text": "#333333"
+  },
+  "fonts": {
+    "heading": "Montserrat",
+    "body": "Open Sans"
+  },
+  "slides": [
+    {
+      "title": "Artificial Intelligence in Healthcare",
+      "content_points": [
+        "Transforming patient care and diagnosis",
+        "Improving operational efficiency",
+        "Enabling personalized medicine"
+      ],
+      "speaker_notes": "Welcome to our presentation on how AI is revolutionizing healthcare.",
+      "unsplash_query": "artificial intelligence healthcare technology",
+      "layout_type": "title",
+      "layout_details": {
+        "position": "center",
+        "text_alignment": "center",
+        "image_size": "full",
+        "content_arrangement": "vertical"
+      }
+    },
+    {
+      "title": "Key Applications of AI in Healthcare",
+      "content_points": [
+        "Medical imaging analysis and diagnosis",
+        "Predictive analytics for patient outcomes",
+        "Drug discovery and development",
+        "Virtual health assistants and chatbots",
+        "Administrative workflow automation"
+      ],
+      "speaker_notes": "These are the primary areas where AI is making significant impact in healthcare.",
+      "unsplash_query": "healthcare technology digital",
+      "layout_type": "text",
+      "layout_details": {
+        "position": "left",
+        "text_alignment": "left",
+        "image_size": "none",
+        "content_arrangement": "vertical"
+      }
+    },
+    {
+      "title": "AI-Powered Medical Imaging",
+      "content_points": [
+        "Faster and more accurate diagnosis",
+        "Detection of subtle abnormalities",
+        "Reduced workload for radiologists",
+        "Earlier detection of diseases"
+      ],
+      "speaker_notes": "AI is particularly effective in analyzing medical images like X-rays, MRIs, and CT scans.",
+      "unsplash_query": "medical imaging AI",
+      "layout_type": "text-image",
+      "layout_details": {
+        "position": "right",
+        "text_alignment": "left",
+        "image_size": "medium",
+        "content_arrangement": "horizontal"
+      }
+    }
+  ]
+}
+
+Layout Information Check:
+--------------------------------------------------
+Slide 1:
+  Title: Artificial Intelligence in Healthcare
+  Layout Type: title
+  ✓ Layout type 'title' is supported in our system
+  ✓ Description: Title slide with large title, subtitle, optional background image
+  ✓ PowerPoint layout index: 0
+  Layout Details:
+    position: center
+    text_alignment: center
+    image_size: full
+    content_arrangement: vertical
+
+Slide 2:
+  Title: Key Applications of AI in Healthcare
+  Layout Type: text
+  ✓ Layout type 'text' is supported in our system
+  ✓ Description: Simple text content with title and body text
+  ✓ PowerPoint layout index: 1
+  Layout Details:
+    position: left
+    text_alignment: left
+    image_size: none
+    content_arrangement: vertical
+
+Slide 3:
+  Title: AI-Powered Medical Imaging
+  Layout Type: text-image
+  ✓ Layout type 'text-image' is supported in our system
+  ✓ Description: Text on one side, image on the other
+  ✓ PowerPoint layout index: 3
+  Layout Details:
+    position: right
+    text_alignment: left
+    image_size: medium
+    content_arrangement: horizontal
+
+
+Recommendations:
+--------------------------------------------------
+1. Verify that the SlideLayout component in the frontend correctly handles these layout types
+2. Ensure that the layout_type property is being passed to the SlideLayout component
+3. Check the console logs in the browser to see if the layout information is being received
+4. Try manually setting different layout types to test the rendering

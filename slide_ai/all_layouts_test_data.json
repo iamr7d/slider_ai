@@ -1,0 +1,283 @@
+{
+  "colors": {
+    "background": "#FFFFFF",
+    "accent": "#4F46E5",
+    "text": "#333333"
+  },
+  "fonts": {
+    "heading": "Montserrat",
+    "body": "Open Sans"
+  },
+  "slides": [
+    {
+      "title": "Title Layout Example",
+      "content_points": [
+        "This is an example of the 'title' layout type",
+        "Description: Title slide with large title, subtitle, optional background image",
+        "Content point 3 - Additional information",
+        "Content point 4 - More details about this layout"
+      ],
+      "speaker_notes": "Speaker notes for the title layout example. This layout is best used for title slide with large title, subtitle, optional background image",
+      "unsplash_query": "title layout example",
+      "layout_type": "title",
+      "layout_details": {
+        "position": "center",
+        "text_alignment": "center",
+        "image_size": "full",
+        "content_arrangement": "vertical"
+      }
+    },
+    {
+      "title": "Toc Layout Example",
+      "content_points": [
+        "This is an example of the 'toc' layout type",
+        "Description: Table of contents with section titles and page numbers",
+        "Content point 3 - Additional information",
+        "Content point 4 - More details about this layout"
+      ],
+      "speaker_notes": "Speaker notes for the toc layout example. This layout is best used for table of contents with section titles and page numbers",
+      "unsplash_query": "toc layout example",
+      "layout_type": "toc",
+      "layout_details": {
+        "position": "left",
+        "text_alignment": "left",
+        "image_size": "medium",
+        "content_arrangement": "horizontal"
+      }
+    },
+    {
+      "title": "Text Layout Example",
+      "content_points": [
+        "This is an example of the 'text' layout type",
+        "Description: Simple text content with title and body text",
+        "Content point 3 - Additional information",
+        "Content point 4 - More details about this layout"
+      ],
+      "speaker_notes": "Speaker notes for the text layout example. This layout is best used for simple text content with title and body text",
+      "unsplash_query": "text layout example",
+      "layout_type": "text",
+      "layout_details": {
+        "position": "right",
+        "text_alignment": "right",
+        "image_size": "small",
+        "content_arrangement": "vertical"
+      }
+    },
+    {
+      "title": "Two-Column Layout Example",
+      "content_points": [
+        "This is an example of the 'two-column' layout type",
+        "Description: Two columns of text side by side",
+        "Content point 3 - Additional information",
+        "Content point 4 - More details about this layout"
+      ],
+      "speaker_notes": "Speaker notes for the two-column layout example. This layout is best used for two columns of text side by side",
+      "unsplash_query": "two-column layout example",
+      "layout_type": "two-column",
+      "layout_details": {
+        "position": "center",
+        "text_alignment": "center",
+        "image_size": "none",
+        "content_arrangement": "horizontal"
+      }
+    },
+    {
+      "title": "Text-Image Layout Example",
+      "content_points": [
+        "This is an example of the 'text-image' layout type",
+        "Description: Text on one side, image on the other",
+        "Content point 3 - Additional information",
+        "Content point 4 - More details about this layout"
+      ],
+      "speaker_notes": "Speaker notes for the text-image layout example. This layout is best used for text on one side, image on the other",
+      "unsplash_query": "text-image layout example",
+      "layout_type": "text-image",
+      "layout_details": {
+        "position": "left",
+        "text_alignment": "left",
+        "image_size": "full",
+        "content_arrangement": "vertical"
+      }
+    },
+    {
+      "title": "Image-Text Layout Example",
+      "content_points": [
+        "This is an example of the 'image-text' layout type",
+        "Description: Image on one side, text on the other",
+        "Content point 3 - Additional information",
+        "Content point 4 - More details about this layout"
+      ],
+      "speaker_notes": "Speaker notes for the image-text layout example. This layout is best used for image on one side, text on the other",
+      "unsplash_query": "image-text layout example",
+      "layout_type": "image-text",
+      "layout_details": {
+        "position": "right",
+        "text_alignment": "right",
+        "image_size": "medium",
+        "content_arrangement": "horizontal"
+      }
+    },
+    {
+      "title": "Text-Image-Split Layout Example",
+      "content_points": [
+        "This is an example of the 'text-image-split' layout type",
+        "Description: Text on top, image on bottom",
+        "Content point 3 - Additional information",
+        "Content point 4 - More details about this layout"
+      ],
+      "speaker_notes": "Speaker notes for the text-image-split layout example. This layout is best used for text on top, image on bottom",
+      "unsplash_query": "text-image-split layout example",
+      "layout_type": "text-image-split",
+      "layout_details": {
+        "position": "center",
+        "text_alignment": "center",
+        "image_size": "small",
+        "content_arrangement": "vertical"
+      }
+    },
+    {
+      "title": "Image-Text-Split Layout Example",
+      "content_points": [
+        "This is an example of the 'image-text-split' layout type",
+        "Description: Image on top, text on bottom",
+        "Content point 3 - Additional information",
+        "Content point 4 - More details about this layout"
+      ],
+      "speaker_notes": "Speaker notes for the image-text-split layout example. This layout is best used for image on top, text on bottom",
+      "unsplash_query": "image-text-split layout example",
+      "layout_type": "image-text-split",
+      "layout_details": {
+        "position": "left",
+        "text_alignment": "left",
+        "image_size": "none",
+        "content_arrangement": "horizontal"
+      }
+    },
+    {
+      "title": "Multi-Content Layout Example",
+      "content_points": [
+        "This is an example of the 'multi-content' layout type",
+        "Description: Multiple text and image blocks in a grid",
+        "Content point 3 - Additional information",
+        "Content point 4 - More details about this layout"
+      ],
+      "speaker_notes": "Speaker notes for the multi-content layout example. This layout is best used for multiple text and image blocks in a grid",
+      "unsplash_query": "multi-content layout example",
+      "layout_type": "multi-content",
+      "layout_details": {
+        "position": "right",
+        "text_alignment": "right",
+        "image_size": "full",
+        "content_arrangement": "vertical"
+      }
+    },
+    {
+      "title": "Quote Layout Example",
+      "content_points": [
+        "This is an example of the 'quote' layout type",
+        "Description: Large quote or impact statement with minimal other content",
+        "Content point 3 - Additional information",
+        "Content point 4 - More details about this layout"
+      ],
+      "speaker_notes": "Speaker notes for the quote layout example. This layout is best used for large quote or impact statement with minimal other content",
+      "unsplash_query": "quote layout example",
+      "layout_type": "quote",
+      "layout_details": {
+        "position": "center",
+        "text_alignment": "center",
+        "image_size": "medium",
+        "content_arrangement": "horizontal"
+      }
+    },
+    {
+      "title": "Chart Layout Example",
+      "content_points": [
+        "This is an example of the 'chart' layout type",
+        "Description: Slide with a chart or graph as the main focus",
+        "Content point 3 - Additional information",
+        "Content point 4 - More details about this layout"
+      ],
+      "speaker_notes": "Speaker notes for the chart layout example. This layout is best used for slide with a chart or graph as the main focus",
+      "unsplash_query": "chart layout example",
+      "layout_type": "chart",
+      "layout_details": {
+        "position": "left",
+        "text_alignment": "left",
+        "image_size": "small",
+        "content_arrangement": "vertical"
+      }
+    },
+    {
+      "title": "Comparison Layout Example",
+      "content_points": [
+        "This is an example of the 'comparison' layout type",
+        "Description: Side-by-side comparison of two concepts",
+        "Content point 3 - Additional information",
+        "Content point 4 - More details about this layout"
+      ],
+      "speaker_notes": "Speaker notes for the comparison layout example. This layout is best used for side-by-side comparison of two concepts",
+      "unsplash_query": "comparison layout example",
+      "layout_type": "comparison",
+      "layout_details": {
+        "position": "right",
+        "text_alignment": "right",
+        "image_size": "none",
+        "content_arrangement": "horizontal"
+      }
+    },
+    {
+      "title": "Timeline Layout Example",
+      "content_points": [
+        "This is an example of the 'timeline' layout type",
+        "Description: Horizontal or vertical timeline of events",
+        "Content point 3 - Additional information",
+        "Content point 4 - More details about this layout"
+      ],
+      "speaker_notes": "Speaker notes for the timeline layout example. This layout is best used for horizontal or vertical timeline of events",
+      "unsplash_query": "timeline layout example",
+      "layout_type": "timeline",
+      "layout_details": {
+        "position": "center",
+        "text_alignment": "center",
+        "image_size": "full",
+        "content_arrangement": "vertical"
+      }
+    },
+    {
+      "title": "Image-Gallery Layout Example",
+      "content_points": [
+        "This is an example of the 'image-gallery' layout type",
+        "Description: Multiple images in a grid or carousel",
+        "Content point 3 - Additional information",
+        "Content point 4 - More details about this layout"
+      ],
+      "speaker_notes": "Speaker notes for the image-gallery layout example. This layout is best used for multiple images in a grid or carousel",
+      "unsplash_query": "image-gallery layout example",
+      "layout_type": "image-gallery",
+      "layout_details": {
+        "position": "left",
+        "text_alignment": "left",
+        "image_size": "medium",
+        "content_arrangement": "horizontal"
+      }
+    },
+    {
+      "title": "Full-Image Layout Example",
+      "content_points": [
+        "This is an example of the 'full-image' layout type",
+        "Description: Single full-screen image with minimal text overlay",
+        "Content point 3 - Additional information",
+        "Content point 4 - More details about this layout"
+      ],
+      "speaker_notes": "Speaker notes for the full-image layout example. This layout is best used for single full-screen image with minimal text overlay",
+      "unsplash_query": "full-image layout example",
+      "layout_type": "full-image",
+      "layout_details": {
+        "position": "right",
+        "text_alignment": "right",
+        "image_size": "small",
+        "content_arrangement": "vertical"
+      }
+    }
+  ]
+}

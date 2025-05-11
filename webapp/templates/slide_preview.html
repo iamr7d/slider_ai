@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Slide Preview</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Generated Slides</h1>
+        <a href="/download/{{ pptx_file }}" class="download-btn">Download PPTX</a>
+        <div class="slides-preview">
+            {% for slide in slides %}
+            <div class="slide-card">
+                {% if slide.img_b64 %}
+                <img src="{{ slide.img_b64 }}" class="slide-img" alt="Slide Image">
+                {% endif %}
+                <h2>{{ slide.title }}</h2>
+                <ul>
+                    {% for point in slide.content_points %}
+                    <li>{{ point }}</li>
+                    {% endfor %}
+                </ul>
+                <p class="speaker-notes"><strong>Speaker Notes:</strong> {{ slide.speaker_notes }}</p>
+                {% if slide.photographer and slide.photographer_url %}
+                <div class="attribution">Photo by <a href="{{ slide.photographer_url }}" target="_blank">{{ slide.photographer }}</a> on Unsplash</div>
+                {% endif %}
+            </div>
+            {% endfor %}
+        </div>
+        <a href="/" class="back-btn">Generate Another</a>
+    </div>
+</body>
+</html>

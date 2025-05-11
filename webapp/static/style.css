@@ -1,0 +1,107 @@
+body {
+    background: #f6f8fa;
+    font-family: 'Segoe UI', Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 16px;
+    box-shadow: 0 4px 32px rgba(44, 62, 80, 0.08);
+    padding: 32px 40px 40px 40px;
+}
+h1 {
+    text-align: center;
+    color: #2c3e50;
+    margin-bottom: 32px;
+}
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    max-width: 400px;
+    margin: 0 auto;
+}
+label {
+    font-size: 1.1em;
+    color: #34495e;
+}
+input[type="text"], input[type="number"] {
+    padding: 10px;
+    border-radius: 8px;
+    border: 1px solid #dfe4ea;
+    font-size: 1em;
+}
+button {
+    background: #3498db;
+    color: #fff;
+    padding: 12px 0;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+button:hover {
+    background: #217dbb;
+}
+.slides-preview {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 32px;
+    justify-content: center;
+    margin-top: 32px;
+}
+.slide-card {
+    background: #f9fafb;
+    border-radius: 18px;
+    box-shadow: 0 2px 8px rgba(44, 62, 80, 0.06);
+    padding: 24px 20px 20px 20px;
+    width: 320px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.slide-img {
+    width: 90%;
+    border-radius: 16px;
+    margin-bottom: 18px;
+    box-shadow: 0 2px 8px rgba(52, 152, 219, 0.16);
+}
+h2 {
+    color: #2d3436;
+    margin-bottom: 10px;
+    font-size: 1.3em;
+    text-align: center;
+}
+ul {
+    text-align: left;
+    margin-bottom: 10px;
+}
+.speaker-notes {
+    font-size: 0.98em;
+    color: #636e72;
+    margin-bottom: 6px;
+}
+.attribution {
+    font-size: 0.85em;
+    color: #0984e3;
+    margin-top: 6px;
+}
+.download-btn, .back-btn {
+    display: inline-block;
+    margin: 20px 10px 0 0;
+    padding: 10px 24px;
+    background: #00b894;
+    color: #fff;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: 500;
+    transition: background 0.2s;
+}
+.download-btn:hover, .back-btn:hover {
+    background: #00916e;
+}
